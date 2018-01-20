@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>CertifícaTech</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Reem+Kufi" rel="stylesheet">
+  <link href="./materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://use.fontawesome.com/0550836500.js"></script>
+
+  <!-- Icons -->
+<!--   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-gulpicon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff"> -->
+</head>
+
+<body>
+<!-- Barra de menú -->
+  <div class="navbar-fixed z-depth-3">
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="#" class="brand-logo left"><img src="img/select_logo.png" alt="logo"></a>
+        <ul id="nav-mobile" class="right">
+          <li>
+
+
+            <a href="#" data-activates="slide-out" class="button-collapse pulse"><i class="material-icons">menu</i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Botón Home -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large waves-effect waves-light teal darken-3 z-depth-5 tooltipped" data-position="top" data-delay="50" data-tooltip="Home" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+  </div>
+  <!--/Botón Home  -->
+
+ 
+  <!-- Menú slide -->
+  <div> 
+    <ul id="slide-out" class="side-nav  teal lighten-2">
+      <h3>Scrum</h3>
+
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Historia</div>
+          <div class="collapsible-body "><a href="historia.html">Historia</a></div>
+        </li>
+      </ul>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Conceptos generales</div>
+          <div class="collapsible-body "><a href="definicion.html">Definición de Scrum</a></div>
+          <div class="collapsible-body "><a href="ventajas.html">Ventajas de Scrum</a></div>
+          <div class="collapsible-body "><a href="fases.html">Fases de Scrum</a></div>
+        </li>
+      </ul>
+
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Principios de Scrum</div>
+          <div class="collapsible-body "><a href="pr_control.html">Control del proceso empírico</a></div>
+          <div class="collapsible-body "><a href="pr_auto_org.html">Auto - Organización</a></div>
+          <div class="collapsible-body "><a href="pr_priorizacion.html">Priorización basada en el valor</a></div>
+          <div class="collapsible-body "><a href="pr_colaboracion.html">Colaboración</a></div>
+          <div class="collapsible-body "><a href="pr_bloques.html">Asignación de un bloque de tiempo</a></div>
+          <div class="collapsible-body "><a href="pr_desarrollo.html">Desarrollo iterativo</a></div>
+        </li>
+      </ul>
+
+
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Aspectos de Scrum</div>
+          <div class="collapsible-body "><a href="asp_organizacion.html">Organización</a></div>
+          <div class="collapsible-body "><a href="">Justificación del negocio</a></div>
+          <div class="collapsible-body "><a href="">Calidad</a></div>
+          <div class="collapsible-body "><a href="">Cambio</a></div>
+          <div class="collapsible-body "><a href="">Riesgo</a></div>
+        </li>
+      </ul>
+
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Procesos de Scrum</div>
+          <div class="collapsible-body "><a href="">Creación de la visión del proyecto</a></div>
+          <div class="collapsible-body "><a href="">Identificación del Scrum Master y socios</a></div>
+          <div class="collapsible-body "><a href="">Formación de equipos</a></div>
+          <div class="collapsible-body "><a href="">Desarrollo de épicas</a></div>
+          <div class="collapsible-body "><a href="">Creación de lista priorizada de clientes</a></div>
+          <div class="collapsible-body "><a href="">Planificación de lanzamiento</a></div>
+          <div class="collapsible-body "><a href="">Creación de historias de usuario</a></div>
+          <div class="collapsible-body "><a href="">Aprobación y asignación de US</a></div>
+          <div class="collapsible-body "><a href="">Creación de tareas</a></div>
+          <div class="collapsible-body "><a href="">Estimación de tareas</a></div>
+          <div class="collapsible-body "><a href="">Creación de lista de pendientes del Sprint</a></div>
+          <div class="collapsible-body "><a href="">Creación de entregables</a></div>
+          <div class="collapsible-body "><a href="">Reuniones diarias</a></div>
+          <div class="collapsible-body "><a href="">Mantenimiento de lista priorizada de pendientes</a></div>
+          <div class="collapsible-body "><a href="">Convocatoria Scrum de Scrums</a></div>
+          <div class="collapsible-body "><a href="">Demostración y validación del sprint</a></div>
+          <div class="collapsible-body "><a href="">Retrospectiva del sprint</a></div>
+          <div class="collapsible-body "><a href="">Envío de entregables</a></div>
+          <div class="collapsible-body "><a href="">Retrospectiva del proyecto</a></div>
+      </ul>
+
+    </ul>
+  </div>
+  <!--/Menu slide  --> 
+
+  <div class="row">
+    <div class="col-md-12 center-align">
+      <h1 class="section_title">
+        Organización
+      </h1>
+    </div>
+  </div> 
+
+  <div class="container">
+	  <div class="row">
+	  	<div class="col m12">
+	  		<p>En Scrum los Roles se dividen dos:</p><br>
+	  		<li>
+	  			<span><strong>Roles Centrales:</strong></span> <br> Son los roles principales y necesarios para llevar a cabo y feliz
+					término el proyecto, está compuesto por: el (los) propietario(s) del producto, El
+	Scrum Master y el equipo Scrum, estos roles trabajan en conjunto para lograr el
+	mismo fin, cabe aclarar que ningún rol está a cargo de otro; todos están al mismo
+	nivel. Cada rol tiene responsabilidades y cumple tareas específicas como lo
+	numeraremos en la tabla:
+	  		</li><br>
+	  	</div>
+
+	  	<div class="col m12">
+	  		<table>
+		  		<tr>
+		  			<td class="light-blue darken-2 rol"><strong>Rol</strong></td>
+		  			<td class="light-blue darken-2"><strong>Características</strong></td>
+		  		</tr>
+
+		  		<tr>
+		  			<td class=" light-green accent-1 rol">Propietario del producto</td>
+		  			<td class="grey lighten-2">
+		  				Representa al cliente final del producto, es su vozdentro de la interacción del proyecto.Existen en algunos casos Propietarios de Cartera yProgramas. <br>
+
+		  				<p>Características:</p> <br>
+
+		  				<li>Maximizar el valor del negocio.</li>
+		  				<li>Articula los requisitos del cliente.</li>
+		  				<li>Mantener la justificación del negocio.</li>
+		  				<li>Asegura los recursos financieros</li>
+		  				<li>Asegurar la entrega del producto.</li>
+		  				<br>
+		  				<a href="">Responsabilidades</a>
+		  			</td>
+		  		</tr>
+
+		  		<tr>
+		  			<td class="yellow accent-1 rol">Scrum Master</td>
+		  			<td class="grey lighten-4">
+		  				<p>Está al nivel jerárquico de los miembros del equipo
+							de trabajo, cuenta con conocimientos más
+							específicos en desarrollo de proyectos.</p>
+							<br>
+							<p>Existen en algunos casos Scrum Master de Cartera
+							y Programas.</p>
+		  				<br>
+		  				<p>Características:</p>
+		  				<br>
+		  				<li>Facilitar al equipo Scrum un ambiente idóneo de
+							trabajo para lograr los objetivos del proyecto.</li>
+		  				<li>Guía al equipo Scrum en las buenas prácticas de
+							la mitología.</li>
+		  				<li>Elimina los impedimentos que se presenten al
+							grupo durante los Sprint y en sí en todo el desarrollo del proyecto.</li>
+							<br>
+							<a href="">Responsabilidades</a>
+		  			</td>
+		  		</tr>
+
+		  		<tr>
+		  			<td class="deep-purple accent-1 rol">Equipo Scrum</td>
+		  			<td class="grey lighten-2">
+		  				Grupo de personas que trabajan en el proyecto.
+							El tamaño óptimo de un equipo Scrum es de seis a
+							diez miembros, se recomienda tener suplentes para reemplazar a cualquier persona que vaya a dejar el equipo Scrum.
+							<br>
+							<p>Características:</p>
+							<br>
+							<li>Entender los requerimientos planteados por el
+							propietario del negocio.</li>
+							<li>Estimación de historias de usuarios.</li>
+							<li>Elaboración de entregables.</li>
+		  			</td>
+		  		</tr>
+	  		</table>
+	  		<br>
+	  	</div>
+
+	  	<div class="col m12">
+	  		<li>	  			
+	  			<span><strong>Roles no centrales:</strong></span><br>
+	  		</li>
+	  		<p>Son roles que no son obligatoriamente necesarios para el desarrollo del proyecto, depende del enfoque o necesidades especiales de algún proyecto, estos intervienen:</p>
+	  		<br>
+
+	  		<table>
+		  		<tr>
+		  			<td class="light-blue darken-2 rol"><strong>Rol</strong></td>
+		  			<td class="light-blue darken-2"><strong>Características</strong></td>
+		  		</tr>
+
+		  		<tr>
+		  			<td class="green accent-2">Socios</td>
+		  			<td class="grey lighten-2">
+		  				Proporciona (n) las entradas para el desarrollo del producto del proyecto e intervienen en algunos aspectos de desarrollo del producto.
+ 							Interactúan con el propietario del producto, el Scrum master y el equipo de Scrum.
+ 							<br>
+ 							<p>Los tres tipos de socios son:</p>
+ 							<li>Cliente: Es quien adquiere el producto ya sea para uso interno o externo.</li>
+ 							<li>Usuarios: Es quien utiliza directamente el producto resultado del proyecto, algunas veces es también el cliente.</li>
+ 							<li>Patrocinador: Es quien o quienes proveen los recursos para que el proyecto se lleve a cabo, es el socio a quien se le rinden cuentas al concluir el proyecto.</li>
+		  			</td>
+		  		</tr>
+
+		  		<tr>
+		  			<td class="amber accent-2">Vendedores</td>
+		  			<td class="grey lighten-4">
+		  				Se compone de las personas u organizaciones que se encargan de ofrecer el producto.
+		  			</td>
+		  		</tr>
+
+		  		<tr>
+		  			<td class="red accent-2">Cuerpo de asesoramiento de Scrum</td>
+		  			<td class="grey lighten-2">Es opcional, está compuesto de documentos o expertos que intervienen en la definición de  objetivos, actúan como consultores u orientadores en el desarrollo del proyecto cuando se requiera.</td>
+		  		</tr>
+	  		</table>
+	  		<br>
+	  	</div>
+
+	  	<div class="col m12">
+	  		<h5>Scrum en proyectos</h5>
+	  		<p>
+	  			Un proyecto es una empresa de colaboración para obtener los resultados esperados en el desarrollo de nuevos productos, Scrum se puede aplicar tanto para proyectos muy pequeños como para proyectos muy grandes, la diferencia que radica en los proyectos grandes es que  en estos el equipo de trabajo se divide en equipos más pequeños los cuales trabajan a la par ya sea en las mismas o distintas actividades dentro del Sprint, la comunicación se hace por medio de la reunión de Scrum de Scrums, a esta reunión asiste un representante de cada equipo generalmente el Scrum Master, pero puede ser cualquier miembro del equipo que se sienta en la capacidad de participar, la forma de las reuniones es similar a la reunión diaria que se realiza al interior de cada equipo Scrum, se tratan temas de avances e inconvenientes que se hayan presentado o que posiblemente surjan en el avance.
+	  		</p>
+	  	</div>
+
+		  <div class="col m12">
+		  	<h5>Scrum en programas y carteras</h5>
+		  	<p>
+		  		Programa: es un conjunto de proyectos que se relacionan entre sí para cumplir un objetivo y  entregar resultados de valor para un negocio.
+		  		<br>
+		  		Cartera: es un conjunto de programas relacionados que se relacionan entre sí para cumplir un objetivo y  entregar resultados de valor para un negocio.
+		  		<br>
+		  		Para llevar a cabo Scrum (en el marco de una cartera o programa) de una manera efectiva es necesario hacer ajusten en las herramientas y en la estructura organizativa, debido a que las carteras y programas cuentan con múltiples equipos separados con diferentes conjuntos de objetivos, teniendo en cuenta que los equipos de gestión de programas se enfocan en objetivos de programas mientras que los equipos de gestión de carteras se enfocan en equilibrar objetivos de distintos programas para alcanzar los objetivos de la organización y dar valor empresarial.
+		  		<br>
+		  		Dentro de los  equipos de programas y carteras se maneja la comunicación interna tal como lo indica Scrum, pero también debe haber una comunicación externa entre los diferentes equipos que componen el proyecto para que haya una sinergia en el desarrollo y obtención de objetivos del proyecto.
+		  	</p>
+		  </div>
+
+		  <div class="col m12">
+		  	<h5>Participación de los socios</h5>
+		  	<p>
+		  		El propietario del producto es quien se encarga de mantener la participación activa de los socios para lo cual debe realizar diferentes tareas como: Velar por que los socios colaboren efectivamente para ello debe estar en constante contacto con estos y abarcar sus sugerencias e inquietudes, así como también realizar evaluaciones de impacto en el negocio. El patrocinador es un socio clave ya que al ser quien provee los recursos para la realización del proyecto también espera los resultados finales de este y en especial sus resultados traducidos financieramente.
+		  	</p>
+		  	<br>
+		  	<p>Roles importantes para la gestión programas y  carteras del Scrum son:</p>
+		  	<br>
+		  	<img src="./img/resp_tbl.jpg">
+		  </div>
+
+		  <div class="col m12">
+		  	<h5>Teorías de recursos humanos en Scrum:</h5>
+		  	<p>Modelo de dinámica de grupo de Tuckman:</p>
+		  	<p>A continuación se enumeran las cuatro etapas por la cuales pasa un equipo de trabajo nuevo en Scrum, las cuales son necesarias para adquirir conocimiento y experiencia sobre cómo trabajar la metodología:</p>
+		  	<br>
+
+		  	<table>
+		  		<tr class="rh_etapa">
+		  			<td class="orange darken-4">
+		  				<p><strong>1. Formación (Forming)</strong></p>
+		  				<li>Etapa de Preparación o de Orientación</li>
+		  				<li>Todo es nuevo para el equipo de trabajo</li>
+		  				<li>El equipo es muy dependiente del Líder</li>
+		  				<li>El ambiente dentro de los miembros del equipo es muy armonioso debido a la ausencia de problemas.</li>
+		  			</td>
+		  			<td class="light-green darken-4">
+		  				<p><strong>2. Enfrentamiento (Storming)</strong></p>
+		  				<li>Los miembros luchan por el posicionamiento.</li>
+		  				<li>Se pueden presentar conflictos de poder.</li>
+		  				<li>Existe caos y confusión entre los miembros  del equipo.</li>
+		  				<li>El líder se convierte en un entrenador de los miembros del equipo.</li>
+		  			</td>
+		  		</tr>
+		  		<tr  class="rh_etapa">
+		  			<td class="indigo darken-4">
+		  				<p><strong>3. Normalización (Norming)</strong></p>
+		  				<li>El equipo comienza a madurar.</li>
+		  				<li>Se resuelven diferencias internas.</li>
+		  				<li>Inicia el trabajo en equipo.</li>
+		  				<li>Periodo de ajuste de trabajo grupal.</li>
+		  				<li>Los roles y responsabilidades son más claros.</li>
+		  				<li>El líder actua como facilitador.</li>
+		  			</td>
+		  			<td class="brown darken-4">
+		  				<p><strong>4. Desempeño (Performing)</strong></p>
+		  				<li>El equipo está unido.</li>
+		  				<li>Rinde al máximo.</li>
+		  				<li>El equipo se ha hecho ya más profesional y productivo.</li>
+		  				<li>Los miembros del equipo ya pueden tomar decisiones por sí mismos.</li>
+		  				<li>El líder cumple la función de delegar el trabajo.</li>
+		  			</td>
+		  		</tr>
+		  	</table>
+		  	<br>
+		  </div>
+
+		  <div class="col m12">
+		  	<h5>Técnicas de gestión de conflictos:</h5>
+		  	<p>Hay cuatro enfoques para la gestión de conflictos en una organización que aplica procesos de Scrum:</p>
+
+		  	<table>
+		  		<tr class="rh_enfoque">
+		  			<td class="yellow darken-2">
+		  				<p><strong>Ganar – Ganar</strong></p>
+		  				<p>Se debe propiciar e incentivar un ambiente cómodo para hablar y resolver los problemas velando por que todas las partes ganen lo más equilibradamente posible.</p>
+		  			</td>
+		  			<td class="lime darken-4">
+		  				<p><strong>Perder-Ganar</strong></p>
+		  				<p>No es una técnica de resolución de conflictos que se prefiera en Scrum, pues se presenta cuando hay régimen autoritario donde todos los miembros del equipo no se ven al mismo nivel.
+							Scrum se basa en la igualdad y participación de todos los miembros incluso a la hora de solucionar diferencias.
+							</p>
+		  			</td>
+		  		</tr>
+		  		<tr class="rh_enfoque">
+		  			<td class="cyan darken-4">
+		  				<p><strong>Ganar – Perder</strong></p>
+		  				<p>Es una técnica basada  en la competitividad, generalmente por miembros del equipo que creen que tienen poder decisivo por encima de sus compañeros.
+		  				<br>
+							No es recomendable en Scrum debido a que la metodología es Auto-organizada y auto- gestionada.
+							</p>
+		  			</td>
+		  			<td class="red darken-4">
+		  				<p><strong>Perder – Perder</strong></p>
+		  				<p>Esta técnica involucra a los miembros del equipo en un panorama negativo, donde en la búsqueda de que todos ganen en la solución de un conflicto, finalmente nadie gana. <br>
+							El equipo Scrum debe prestar atención si hay síntomas de mentalidad negativa dentro de los miembros, esto se debe detectar en las reuniones diarias y darle un correctivo oportunamente.
+							</p>
+		  			</td>
+		  		</tr>
+		  	</table>
+		  </div>
+
+		  <div class="col m12">
+				<img src="./img/resp_liderazgo.jpg" class="resp_liderazgo materialboxed">		  	
+		  </div>
+
+	  </div>
+  </div>
+
+
+
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s5">
+          Sitio basado en:<br>
+          <p>VMEdu (2016) <i>A Guide to the Scrum Body of Knowledge (SBOK™ Guide)<i></p>
+        </div>
+        <div class="col s5">
+          Comprar libro:<br>
+          <a href="buy.html"><i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col">
+          Contacto
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--/Footer -->
+
+
+  <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>

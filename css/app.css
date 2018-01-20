@@ -1,0 +1,30 @@
+
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+.brand-logo img {
+	width: 245px;
+}
+
+.nav-wrapper img{
+	width: 210px;
+	margin: 2px 42px;
+
+}
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+	display: block;
+    color: black;
+}
+
+.parallax-container img{
+	width: 1000px;
+	height: auto;
+}

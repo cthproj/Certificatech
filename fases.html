@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>CertifícaTech</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Reem+Kufi" rel="stylesheet">
+  <link href="./materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://use.fontawesome.com/0550836500.js"></script>
+
+  <!-- Icons -->
+<!--   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+  <link rel="apple-touch-gulpicon" sizes="152x152" href="icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+  <link rel="manifest" href="icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff"> -->
+</head>
+
+<body>
+<!-- Barra de menú -->
+  <div class="navbar-fixed z-depth-3">
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="#" class="brand-logo left"><img src="img/select_logo.png" alt="logo"></a>
+        <ul id="nav-mobile" class="right">
+          <li>
+
+
+            <a href="#" data-activates="slide-out" class="button-collapse pulse"><i class="material-icons">menu</i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Botón Home -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large waves-effect waves-light teal darken-3 z-depth-5 tooltipped" data-position="top" data-delay="50" data-tooltip="Home" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+  </div>
+  <!--/Botón Home  -->
+
+
+  <!-- Menú slide -->
+  <div> 
+    <ul id="slide-out" class="side-nav  teal lighten-2">
+      <h3>Scrum</h3>
+
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Historia</div>
+          <div class="collapsible-body "><a href="historia.html">Historia</a></div>
+        </li>
+      </ul>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Conceptos generales</div>
+          <div class="collapsible-body "><a href="definicion.html">Definición de Scrum</a></div>
+          <div class="collapsible-body "><a href="ventajas.html">Ventajas de Scrum</a></div>
+          <div class="collapsible-body "><a href="fases.html">Fases de Scrum</a></div>
+        </li>
+      </ul>
+
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Principios de Scrum</div>
+          <div class="collapsible-body "><a href="pr_control.html">Control del proceso empírico</a></div>
+          <div class="collapsible-body "><a href="pr_auto_org.html">Auto - Organización</a></div>
+          <div class="collapsible-body "><a href="pr_priorizacion.html">Priorización basada en el valor</a></div>
+          <div class="collapsible-body "><a href="pr_colaboracion.html">Colaboración</a></div>
+          <div class="collapsible-body "><a href="pr_bloques.html">Asignación de un bloque de tiempo</a></div>
+          <div class="collapsible-body "><a href="pr_desarrollo.html">Desarrollo iterativo</a></div>
+        </li>
+      </ul>
+
+
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Aspectos de Scrum</div>
+          <div class="collapsible-body "><a href="asp_organizacion.html">Organización</a></div>
+          <div class="collapsible-body "><a href="">Justificación del negocio</a></div>
+          <div class="collapsible-body "><a href="">Calidad</a></div>
+          <div class="collapsible-body "><a href="">Cambio</a></div>
+          <div class="collapsible-body "><a href="">Riesgo</a></div>
+        </li>
+      </ul>
+
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header waves-effect waves-light">Procesos de Scrum</div>
+          <div class="collapsible-body "><a href="">Creación de la visión del proyecto</a></div>
+          <div class="collapsible-body "><a href="">Identificación del Scrum Master y socios</a></div>
+          <div class="collapsible-body "><a href="">Formación de equipos</a></div>
+          <div class="collapsible-body "><a href="">Desarrollo de épicas</a></div>
+          <div class="collapsible-body "><a href="">Creación de lista priorizada de clientes</a></div>
+          <div class="collapsible-body "><a href="">Planificación de lanzamiento</a></div>
+          <div class="collapsible-body "><a href="">Creación de historias de usuario</a></div>
+          <div class="collapsible-body "><a href="">Aprobación y asignación de US</a></div>
+          <div class="collapsible-body "><a href="">Creación de tareas</a></div>
+          <div class="collapsible-body "><a href="">Estimación de tareas</a></div>
+          <div class="collapsible-body "><a href="">Creación de lista de pendientes del Sprint</a></div>
+          <div class="collapsible-body "><a href="">Creación de entregables</a></div>
+          <div class="collapsible-body "><a href="">Reuniones diarias</a></div>
+          <div class="collapsible-body "><a href="">Mantenimiento de lista priorizada de pendientes</a></div>
+          <div class="collapsible-body "><a href="">Convocatoria Scrum de Scrums</a></div>
+          <div class="collapsible-body "><a href="">Demostración y validación del sprint</a></div>
+          <div class="collapsible-body "><a href="">Retrospectiva del sprint</a></div>
+          <div class="collapsible-body "><a href="">Envío de entregables</a></div>
+          <div class="collapsible-body "><a href="">Retrospectiva del proyecto</a></div>
+      </ul>
+
+    </ul>
+  </div>
+  <!--/Menu slide  -->  
+
+  <div class="row">
+    <div class="col-md-12 center-align">
+      <h1 class="section_title">
+        Fases de Scrum
+      </h1>
+    </div>
+  </div> 
+
+
+
+  <div class="row">
+    <div class="col m12 center-align manito">
+    <i class="material-icons medium">aspect_ratio</i>
+      <i class="material-icons medium">touch_app</i><p>Click para ver</p>
+    </div>
+  </div>  
+
+  <img src="./img/fases.jpeg" alt="fases" usemap="#Map" class="fases">
+
+
+  <map name="Map" id="Map">
+    <a class="waves-effect waves-light" href="#modal1">
+      <area alt="" title="1.1" href="#" shape="rect" coords="7,284,209,231" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal2">
+      <area alt="" title="1.2" href="#" shape="rect" coords="7,293,211,373" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal3">
+      <area alt="" title="1.3" href="#" shape="rect" coords="5,384,209,436" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal4">
+      <area alt="" title="1.4" href="#" shape="rect" coords="4,449,209,503" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal5">
+      <area alt="" title="1.5" href="#" shape="rect" coords="3,515,207,600" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal6">
+      <area alt="" title="1.6" href="#" shape="rect" coords="2,609,207,691" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal7">
+      <area alt="" title="2.7" href="#" shape="rect" coords="289,96,497,149" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal8">
+      <area alt="" title="2.8" href="#" shape="rect" coords="652,83,409,6" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal9">
+      <area alt="" title="2.9" href="#" shape="rect" coords="732,148,524,97" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal10">
+      <area alt="" title="2.10" href="#" shape="rect" coords="883,53,675,4" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal11">
+      <area alt="" title="2.11" href="#" shape="rect" coords="957,146,753,68" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal12">
+      <area alt="" title="3.12" href="#" shape="rect" coords="1069,373,1274,428" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal13">
+      <area alt="" title="3.13" href="#" shape="rect" coords="1069,434,1272,486" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal14">
+      <area alt="" title="3.14" href="#" shape="rect" coords="1067,497,1272,572" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal15">
+      <area alt="" title="4.15" href="#" shape="rect" coords="647,791,853,842" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal16">
+      <area alt="" title="4.16" href="#" shape="rect" coords="766,849,976,903" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal17">
+      <area alt="" title="4.17" href="#" shape="rect" coords="893,789,1100,842" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal18">
+      <area alt="" title="5.18" href="#" shape="rect" coords="97,893,304,942" />
+    </a>
+    <a class="waves-effect waves-light" href="#modal19">
+      <area alt="" title="5.19" href="#" shape="rect" coords="328,892,536,945" />
+    </a>
+
+  </map>
+
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Creación de la visión y del proyecto</h4>
+    </div>
+    <div>
+      <img src="./img/process/1.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/2.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal3" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/3.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal4" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/4.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal5" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/5.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal6" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/6.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal7" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/7.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal8" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/8.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal9" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/9.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal10" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/10.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal11" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/11.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal12" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/12.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal13" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/13.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal14" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/14.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal15" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/15.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal16" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/16.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal17" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/17.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal18" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/18.png" class="modal_img">
+    </div>
+  </div>
+  <div id="modal19" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4></h4>
+    </div>
+    <div>
+      <img src="./img/process/19.png" class="modal_img">
+    </div>
+  </div>
+
+
+
+  <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
