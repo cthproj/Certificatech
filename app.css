@@ -76,12 +76,6 @@ h3 {
 	padding-left: 12px;
 }
 
-.section_title {
-	font-size: 3.7rem;
-	text-align: center;
-	height: 50px;
-}
-
 .side-nav .collapsible-header, .side-nav.fixed .collapsible-header {
 	color: #e5e1e1;
 }
@@ -99,6 +93,10 @@ h3 {
 
 .side-nav .collapsible-body:hover {
 	background: #e0f2f1;
+}
+
+.info-top-space {
+	margin-top: 180px;
 }
 
 .fases {
@@ -130,10 +128,11 @@ h4 {
 .def_title {
 /*	animation: fadeUpIn 2.3s;
 	-webkit-animation: fadeUpIn 2.3s;*/
+	text-align: center;
 	position: fixed;
 	background-color: white;
 	width: 100%;
-}
+} 
 
 .def_text {
 	font-size: 23px;
