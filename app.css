@@ -1,5 +1,5 @@
-body {
-	font-family: 'Reem Kufi', sans-serif !important;
+* {
+	font-family: 'Open Sans';
 }
 
 .button:link,
@@ -12,7 +12,6 @@ footer {
 }
 
 tr td {
-	font-family: 'Open Sans';
 	border-radius: 10px;
 	/*border: 1px gray dotted;*/
 }
