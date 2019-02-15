@@ -1,5 +1,5 @@
-body {
-	font-family: 'Reem Kufi', sans-serif !important;
+* {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .button:link,
@@ -142,7 +142,6 @@ html, body {
   /*background-image: url(http://theartmad.com/wp-content/uploads/Dark-Grey-Texture-Wallpaper-5.jpg);*/l
   background-size: cover;
   background-position: top center;
-  font-family: helvetica neue, helvetica, arial, sans-serif;
   font-weight: 200;
 }
 html.modal-active, body.modal-active {
