@@ -352,3 +352,13 @@ header {
 
 /*--------- Finaliza ---------*/
 /*--------- Aspectos / Calidad ---------*/
+
+/*--------- Inicia ---------*/
+/*--------- Aspectos / Riesgo ---------*/
+
+.tabla-riesgos tr:nth-child(odd) {
+	background-color: #dddddd
+}
+
+/*--------- Finaliza ---------*/
+/*--------- Aspectos / Riesgo ---------*/
