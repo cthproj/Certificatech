@@ -362,3 +362,122 @@ header {
 
 /*--------- Finaliza ---------*/
 /*--------- Aspectos / Riesgo ---------*/
+
+/*--------- Inicia ---------*/
+/*--------- Landing  ---------*/
+
+
+.landing--section {
+	display: inline-block;
+}
+
+	/* Left Section  */
+
+.landing--section.left {
+	position: relative;
+	width: 40%;
+	height:100vh;
+}
+
+.landing--logo {
+	width: 130px;
+	cursor: initial;
+	margin: 15px;
+}
+
+.landing--title-section {
+	position: absolute;
+	top: 40%;
+	transform: translateY(-50%);
+	width: 70%;
+	margin-left: 10%;
+}
+
+.landing--title-section__title {
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.landing--title-section__social {
+	display: table;
+}
+
+ul#landing--title-section__badges {
+	list-style: none;
+}
+
+#landing--title-section__badges li {
+	background-color: darkblue;
+	border-radius: 30px;
+	width: 30px;
+	height: 30px;
+	margin-right: 15px;
+	display: inline-block;
+}
+
+#landing--title-section__badges li i {
+	color: white;
+	margin: 8px;
+}
+
+
+	/* Right Section  */
+
+.landing--section.right {
+	width: 60%;
+	background: linear-gradient(54deg, rgba(41,90,75,1) 35%, rgba(255,255,255,0.01) 100%);
+	height:100vh;
+}
+
+/* .landing--section-card-container {
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 70%;
+	height: 87%;
+	margin: 30px auto;
+	padding: 30px;
+	overflow: scroll;
+	-ms-overflow-style: none; 
+	scrollbar-width: none;
+} */
+
+/* .landing--section-card-container::-webkit-scrollbar {
+	display: none;
+} */
+
+.landing--section-card-container li {
+	width: 49.7%;
+	background-color: rgba(0, 255, 255, 0.151);
+	margin: 15px auto;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.landing--section-card-container li:hover {
+	opacity: 1;
+	-webkit-animation: flash 1s;
+	animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+/*--------- Finaliza ---------*/
+/*--------- Landing---------*/

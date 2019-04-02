@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -11,247 +11,108 @@
   <link href="./app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-  <!-- Icons -->
-<!--   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-  <link rel="apple-touch-gulpicon" sizes="152x152" href="icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-  <link rel="manifest" href="icons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff"> -->
 </head>
 
 <body>
-<!-- Barra de menú -->
-  <div class="navbar-fixed z-depth-3">
-    <nav>
-      <div class="nav-wrapper white">
-        <a href="#" class="brand-logo left"><img src="img/select_logo.png" alt="logo"></a>
-        <ul id="nav-mobile" class="right">
+
+  <div>
+
+    <!-- Section Left -->
+  
+    <div class="landing--section left">
+
+      <img src="img/select_logo.png" alt="logo" class="landing--logo">
+      <div class="landing--title-section">
+        <p class="landing--title-section__title">
+            Agile guideliness 
+        </p>
+        <p>
+            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        </p>
+        <div class="landing--title-section__social">
+          <ul id="landing--title-section__badges">
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-facebook-square"></i></li>
+            <li><i class="fas fa-share-alt"></i></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  
+    <!-- Section Right -->
+
+    <div class="landing--section right">
+
+      <div class="landing--section-card-container">
+        <ul>
           <li>
-
-
-            <a href="#" data-activates="slide-out" class="button-collapse pulse"><i class="fas fa-bars"></i></a>
+            <a href="#">
+              <h3>
+                Glossary <i class="fas fa-book"></i>
+              </h3>
+              <p>
+                Lo escencial que debes conocer 
+              </p>
+            </a>
           </li>
+          
+          <li>
+              <a href="historia.html">
+                <h3>
+                  History <i class="fas fa-landmark"></i>
+                </h3>
+                <p>
+                    Todo en una  breve línea del tiempo
+                </p>
+              </a>
+            </li>
+            <li>
+              <a href="conceptos.html">
+                <h3>
+                  Concepts <i class="fas fa-atom"></i>
+                </h3>
+                <p>
+                  Los elementos más importantes de Scrum
+                </p>
+              </a>
+            </li>
+            <li>
+              <a href="principios_main.html">
+                <h3>
+                  Principles <i class="fas fa-book-open"></i>
+                </h3>
+                <p>
+                  Conoce las partes más importantes del desarrollo iterativo
+                </p>
+              </a>
+            </li>
+            <li>
+              <a href="aspectos_main.html">
+                <h3>
+                  Aspects <i class="fas fa-layer-group"></i>
+                </h3>
+                <p>
+                  Características de la metodología
+                </p>
+              </a>
+            </li>
+            <li>
+              <a href="procesos_main.html">
+                <h3>
+                  Processes <i class="fas fa-users-cog"></i>
+                </h3>
+                <p>
+                  Explora cada parte de los procesos
+                </p>
+              </a>
+            </li>
         </ul>
       </div>
-    </nav>
-  </div>
 
-
-  <!-- Menú slide -->
-  <div>
-    <ul id="slide-out" class="side-nav  teal lighten-2">
-      <h3>Scrum</h3>
-
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header waves-effect waves-light">Historia</div>
-          <div class="collapsible-body "><a href="historia.html">Historia</a></div>
-        </li>
-      </ul>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header waves-effect waves-light">Conceptos generales</div>
-          <div class="collapsible-body "><a href="definicion.html">Definición de Scrum</a></div>
-          <div class="collapsible-body "><a href="ventajas.html">Ventajas de Scrum</a></div>
-          <div class="collapsible-body "><a href="fases.html">Fases de Scrum</a></div>
-        </li>
-      </ul>
-
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header waves-effect waves-light">Principios de Scrum</div>
-          <div class="collapsible-body "><a href="pr_control.html">Control del proceso empírico</a></div>
-          <div class="collapsible-body "><a href="pr_auto_org.html">Auto - Organización</a></div>
-          <div class="collapsible-body "><a href="pr_priorizacion.html">Priorización basada en el valor</a></div>
-          <div class="collapsible-body "><a href="pr_colaboracion.html">Colaboración</a></div>
-          <div class="collapsible-body "><a href="pr_bloques.html">Asignación de un bloque de tiempo</a></div>
-          <div class="collapsible-body "><a href="pr_desarrollo.html">Desarrollo iterativo</a></div>
-        </li>
-      </ul>
-
-
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header waves-effect waves-light">Aspectos de Scrum</div>
-          <div class="collapsible-body "><a href="asp_organizacion.html">Organización</a></div>
-          <div class="collapsible-body "><a href="asp_justificacion.html">Justificación del negocio</a></div>
-          <div class="collapsible-body "><a href="asp_calidad.html">Calidad</a></div>
-          <div class="collapsible-body "><a href="asp_cambio.html">Cambio</a></div>
-          <div class="collapsible-body "><a href="asp_riesgos.html">Riesgo</a></div>
-        </li>
-      </ul>
-
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header waves-effect waves-light">Procesos de Scrum</div>
-          <div class="collapsible-body"><a href="fs_inicio.html">Fase de inicio</a></div>
-          <div class="collapsible-body"><a href="fs_planificar.html">Fase de planificación y estimación</a></div>
-          <div class="collapsible-body"><a href="fs_implementacion.html">Fase de implementación</a></div>
-          <div class="collapsible-body"><a href="fs_repaso.html">Fase de repaso y retrospectiva</a></div>
-          <div class="collapsible-body"><a href="fs_lanzamiento.html">Fase de lanzamiento</a></div>
-    </ul>
-  </div>
-  <!--/Menu slide  -->
-
-  <!-- Primer Banner -->
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text blue-grey-text text-lighten-5"></h1>
-        <br><br>
-      </div>
     </div>
-    <div class="parallax"><img src="img/main_banner.png" alt="Unsplashed background img 1"></div>
+
   </div>
-
-  <!-- Sección de tarjetas -->
-  <div class="container">
-    <div class="section">
-      <div class="row">
-      <ul id="card_list">
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align hoverable">
-            <div class="card-image">
-              <img src="img/1.jpg">
-              <span class="card-title">Glosario de Términos</span>
-            </div>
-            <div class="card-content">
-              <p>Lo escencial que debes conocer</p>
-            </div>
-            <div class="card-action">
-              <a href="glosario.html">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align hoverable">
-            <div class="card-image">
-              <img src="img/2.jpeg">
-              <span class="card-title">Historia</span>
-            </div>
-            <div class="card-content">
-              <p>Todo en una  breve línea del tiempo</p>
-            </div>
-            <div class="card-action">
-              <a href="historia.html">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align hoverable">
-            <div class="card-image">
-              <img src="img/3.jpeg">
-              <span class="card-title">Conceptos Generales</span>
-            </div>
-            <div class="card-content">
-              <p>Los elementos más importantes de Scrum</p>
-            </div>
-            <div class="card-action">
-              <a href="./conceptos.html">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align hoverable">
-            <div class="card-image">
-              <img src="img/4.jpeg">
-              <span class="card-title">Principios</span>
-            </div>
-            <div class="card-content">
-              <p>Conoce las partes más importantes del desarrollo iterativo</p>
-            </div>
-            <div class="card-action">
-              <a href="principios_main.html">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align hoverable">
-            <div class="card-image">
-              <img src="img/5.jpg" alt="Scrum">
-              <span class="card-title">Aspectos</span>
-            </div>
-            <div class="card-content">
-              <p>Características de la metodología</p>
-            </div>
-            <div class="card-action">
-              <a href="aspectos_main.html">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-        <li>
-        <div class="col m6">
-          <div class="card center-align hoverable">
-            <div class="card-image">
-              <img src="img/6.jpg">
-              <span class="card-title">Procesos</span>
-            </div>
-            <div class="card-content">
-              <p>Explora cada parte de los procesos</p>
-            </div>
-            <div class="card-action">
-              <a href="procesos_main.html">Entrar</a>
-            </div>
-          </div>
-        </div>
-        </li>
-
-
-      </ul>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col s5">
-          Sitio basado en:<br>
-          <p>VMEdu (2016) <i>A Guide to the Scrum Body of Knowledge (SBOK™ Guide)<i></p>
-        </div>
-        <div class="col s5">
-          Comprar libro:<br>
-          <a href="buy.html"><i class="fa fa-shopping-cart fa-5x" aria-hidden="true"></i></a>
-        </div>
-        <div class="col">
-          Contacto
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!--/Footer -->
 
 
 
